@@ -1,0 +1,11 @@
+// Server para configurar as regras de lint do meu código.
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "env": {
+    "es6" : true
+  },
+  "rules" : {
+    "prettier/prettier" : "error"
+  }
+}
